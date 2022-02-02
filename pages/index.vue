@@ -32,8 +32,8 @@ export default {
   methods: {
     addTask () {
       if (this.newTask) {
-        this.$store.commit('ADD_TASK', this.newTask);
-        this.newTask = '';
+        this.$store.commit('ADD_TASK', this.newTask)
+        this.newTask = ''
       }
     }
   }
